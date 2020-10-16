@@ -44,12 +44,15 @@ input[type="button"] {
     box-shadow: 2px 2px 5px #333333;
 }
 
-.img-butt #volta {
+#back {
     background-color: #FEC9A1;
 }
 
-.img-butt #avanca {
+#next {
     background-color: #800080;
     color: white;
 }
 
+footer p {
+    margin-top: 40px;
+}
