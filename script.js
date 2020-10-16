@@ -37,7 +37,7 @@ function seasonCheck(season) {
         background.style.backgroundColor = "#DB7093";
         title.innerHTML = `Primavera`;
         title.style.fontFamily = "'Satisfy', cursive";
-        title.style.fontSize = "96px";
+        title.style.fontSize = "70px";
         backButton.style.backgroundColor = "#FEC9A1";
         nextButton.style.backgroundColor = "#800080";
         image.src = "images/spring.png";
@@ -48,7 +48,7 @@ function seasonCheck(season) {
         background.style.backgroundColor = "#FFD700";
         title.innerHTML = `Verão`;
         title.style.fontFamily = "'Pangolin', cursive";
-        title.style.fontSize = "96px";
+        title.style.fontSize = "70px";
         backButton.style.backgroundColor = "#F9EFD7";
         nextButton.style.backgroundColor = "#48AEAB";
         image.src = "images/summer.png";
@@ -59,7 +59,7 @@ function seasonCheck(season) {
         background.style.backgroundColor = "#A0522D";
         title.innerHTML = `Outono`;
         title.style.fontFamily = "'Lovers Quarrel', cursive";
-        title.style.fontSize = "144px";
+        title.style.fontSize = "100px";
         backButton.style.backgroundColor = "#F3D68A";
         nextButton.style.backgroundColor = "#CD853F";
         image.src = "images/auntumn.png";
