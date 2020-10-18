@@ -1,11 +1,68 @@
 /*
-0 - SPRING
-1 - SUMMER
-2 - AUTUMN
-3 - WINTER
+0 - SPRING - 8 => 11 
+1 - SUMMER - 11 => 2
+2 - AUTUMN - 2 => 5
+3 - WINTER - 5 => 8
 */
 
 let season = 0;
+
+function getSeason() {
+    var date = new Date();
+    var day = date.getDate() // Day
+    var month = date.getMonth() // Month
+    console.log(date.getDate());
+    console.log(date.getMonth());
+    
+    // Jan, Feb
+    if (month === 0 || month === 1) {
+        season = 1;
+    }
+    // Mar
+    if (month === 2) {
+        if (day < 20) {
+            season = 1;
+        } else {
+            season = 2;
+        }
+    }
+    //Apr, May
+    if (month === 3 || month === 4) {
+        season = 2;
+    }
+    // Jun
+    if (month === 5) {
+        if (day < 21) {
+            season = 2;
+        } else {
+            season = 3;
+        }
+    }
+    // Jul, Aug
+    if (month === 6 || month === 7) {
+        season = 3;
+    }
+    // Sep
+    if (month === 8) {
+        if (day < 23) {
+            season = 3;
+        } else {
+            season = 1;
+        }
+    }
+    // Oct, Nov
+    if (month === 9 || month === 10) {
+        season = 0;
+    }
+    // Dec
+    if (month === 11) {
+        if (day < 21) {
+            season = 0;
+        } else {
+            season = 1;
+        }
+    }
+}
 
 function backSeason() {
     if (season === 0) {
