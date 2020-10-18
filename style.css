@@ -9,14 +9,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: #DB7093;
 }
 
 h1 {
     color: white;
-    font-family: 'Satisfy', cursive;
-    font-size: 70px;
-    font-weight: none;
 }
 
 /*Alinhamento*/
@@ -47,17 +43,7 @@ input[type="button"] {
     margin: 30px 0;
 }
 
-#back {
-    background-color: #FEC9A1;
-}
-
-#next {
-    background-color: #800080;
-    color: white;
-}
-
-/*Responsividade*/
-
+/*Responsivity*/
 @media (max-width: 1150px) {
     .content {
         width: 60vw;

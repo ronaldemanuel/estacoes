@@ -11,8 +11,6 @@ function getSeason() {
     var date = new Date();
     var day = date.getDate() // Day
     var month = date.getMonth() // Month
-    console.log(date.getDate());
-    console.log(date.getMonth());
     
     // Jan, Feb
     if (month === 0 || month === 1) {
@@ -47,7 +45,7 @@ function getSeason() {
         if (day < 23) {
             season = 3;
         } else {
-            season = 1;
+            season = 0;
         }
     }
     // Oct, Nov
