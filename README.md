@@ -20,7 +20,7 @@ Uma aplicação simples que varia seu design de acordo com a estação do ano, q
 ### Créditos de imagem
 Todas as imagens utilizadas foram retiradas do banco de imagens gratuito [Pexels](https://www.pexels.com/pt-br/).
 *Os créditos dos criadores das imagens utilizadas, estão na descrição das mesmas e listados abaixo:*
-Foto de Oleg Magni no Pexels.
-Foto de Asad Photo Maldives no Pexels.
-Foto de Irina Iriser no Pexels.
-Foto de Radu Andrei Razvan no Pexels.
+1. Foto de Oleg Magni no Pexels.
+1. Foto de Asad Photo Maldives no Pexels.
+1. Foto de Irina Iriser no Pexels.
+1. Foto de Radu Andrei Razvan no Pexels.
