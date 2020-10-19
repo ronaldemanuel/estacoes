@@ -12,7 +12,10 @@ Uma aplicação simples que varia seu design de acordo com a estação do ano, q
 * Altera o design (cores, fontes, textos, imagens) de acordo com a estação do ano.
 * O usuário pode variar a estação manualmente.
 
-### 1.5
+### 1.2
+* Adicionado responsividade para funcionar melhor em smartphones, tablets e computadores com telas menores.
+
+### 2.0
 * Criação de um algoritmo que identifica a estação do ano em que o usuário se encontra, baseado nos dados carregados a partir da máquina em que o site é carregado. Utilizando a classe `Date()` e seus métodos.
 
 ***
