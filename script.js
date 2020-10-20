@@ -9,8 +9,8 @@ let season = 0;
 
 function getSeason() {
     var date = new Date();
-    var day = date.getDate() // Day
-    var month = date.getMonth() // Month
+    var day = 30 // Day
+    var month = 6 // Month
     
     // Jan, Feb
     if (month === 0 || month === 1) {
@@ -96,6 +96,7 @@ function seasonDesign(season) {
         title.style.fontSize = "70px";
         backButton.style.backgroundColor = "#FEC9A1";
         nextButton.style.backgroundColor = "#800080";
+        nextButton.style.color = "#FFFFFF";
         image.src = "images/spring.png";
         imgDesc.innerHTML = `Foto de Oleg Magni no Pexels.`
     }
@@ -107,6 +108,7 @@ function seasonDesign(season) {
         title.style.fontSize = "70px";
         backButton.style.backgroundColor = "#F9EFD7";
         nextButton.style.backgroundColor = "#48AEAB";
+        nextButton.style.color = "#FFFFFF";
         image.src = "images/summer.png";
         imgDesc.innerHTML = `Foto de Asad Photo Maldives no Pexels.`
     }
@@ -118,6 +120,7 @@ function seasonDesign(season) {
         title.style.fontSize = "100px";
         backButton.style.backgroundColor = "#F3D68A";
         nextButton.style.backgroundColor = "#CD853F";
+        nextButton.style.color = "#FFFFFF";
         image.src = "images/auntumn.png";
         imgDesc.innerHTML = `Foto de Irina Iriser no Pexels.`
     }
@@ -129,6 +132,7 @@ function seasonDesign(season) {
         title.style.fontSize = "96px";
         backButton.style.backgroundColor = "#B0C4DE";
         nextButton.style.backgroundColor = "#000080";
+        nextButton.style.color = "#FFFFFF";
         image.src = "images/winter.png";
         imgDesc.innerHTML = `Foto de Radu Andrei Razvan no Pexels.`
     }
