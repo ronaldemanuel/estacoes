@@ -60,6 +60,7 @@ function getSeason() {
             season = 1;
         }
     }
+    seasonDesign(season);
 }
 
 function backSeason() {
@@ -68,7 +69,7 @@ function backSeason() {
     } else {
         season--;
     }
-    seasonCheck(season);
+    seasonDesign(season);
 }
 
 function nextSeason() {
@@ -77,10 +78,10 @@ function nextSeason() {
     } else {
         season++;
     }
-    seasonCheck(season);
+    seasonDesign(season);
 }
 
-function seasonCheck(season) {
+function seasonDesign(season) {
     var background = document.querySelector('body');
     var title = document.querySelector('h1');
     var backButton = document.querySelector('input#back');
