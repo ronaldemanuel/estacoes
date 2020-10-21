@@ -5,12 +5,12 @@
 3 - WINTER - 5 => 8
 */
 
-let season = 0;
+let season;
 
 function getSeason() {
     var date = new Date();
-    var day = 30 // Day
-    var month = 6 // Month
+    var day = date.getDate() // Day
+    var month = date.getMonth() // Month
     
     // Jan, Feb
     if (month === 0 || month === 1) {
