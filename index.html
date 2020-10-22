@@ -14,12 +14,23 @@
         </header>
         <section>
             <div class="img-butt">
-                <input id="back" type="button" value="Voltar estação" onclick="backSeason()">
+                <input class="border-rad" id="back" type="button" value="Voltar estação" onclick="backSeason()">
                 <div class="img-se">
-                    <img id="season-image" src="" alt="">
+                    <img class="border-rad" id="season-image" src="" alt="Imagem da Estação">
                     <p id="legend"></p>
                 </div>
-                <input id="next" type="button" value="Avançar estação" onclick="nextSeason()">
+                <input class="border-rad" id="next" type="button" value="Avançar estação" onclick="nextSeason()">
+            </div>
+            <div class="alter-season border-rad">
+                <label for="select-season">Escolha: </label>
+                <select name="select-season" id="select-season">
+                    <option value="4">Estações</option>    
+                    <option value="0">Primavera</option>
+                    <option value="1">Verão</option>
+                    <option value="2">Outono</option>
+                    <option value="3">Inverno</option>
+                </select>
+                <input class="border-rad" type="button" id="alter" value="Alterar" onclick="alterSeason()">
             </div>
         </section>
         <footer>

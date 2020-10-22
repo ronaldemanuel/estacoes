@@ -88,6 +88,8 @@ function seasonDesign(season) {
     var nextButton = document.querySelector('input#next');
     var image = document.getElementById('season-image');
     var imgDesc = document.querySelector('p#legend');
+    var bgAlter = document.querySelector('div.alter-season');
+    var btAlter = document.getElementById('alter');
 
     if (season === 0) {
         background.style.backgroundColor = "#DB7093";
@@ -98,7 +100,9 @@ function seasonDesign(season) {
         nextButton.style.backgroundColor = "#800080";
         nextButton.style.color = "#FFFFFF";
         image.src = "images/spring.png";
-        imgDesc.innerHTML = `Foto de Oleg Magni no Pexels.`
+        imgDesc.innerHTML = `Foto de Oleg Magni no Pexels.`;
+        bgAlter.style.backgroundColor = "#FEC9A1";
+        btAlter.style.backgroundColor = "#800080";
     }
 
     if (season === 1) {
@@ -111,18 +115,22 @@ function seasonDesign(season) {
         nextButton.style.color = "#FFFFFF";
         image.src = "images/summer.png";
         imgDesc.innerHTML = `Foto de Asad Photo Maldives no Pexels.`
+        bgAlter.style.backgroundColor = "#F9EFD7";
+        btAlter.style.backgroundColor = "#48AEAB";
     }
 
     if (season === 2) {
-        background.style.backgroundColor = "#A0522D";
+        background.style.backgroundColor = "#8B4513";
         title.innerHTML = `Outono`;
         title.style.fontFamily = "'Lovers Quarrel', cursive";
         title.style.fontSize = "100px";
         backButton.style.backgroundColor = "#F3D68A";
-        nextButton.style.backgroundColor = "#CD853F";
+        nextButton.style.backgroundColor = "#A0522D";
         nextButton.style.color = "#FFFFFF";
         image.src = "images/auntumn.png";
         imgDesc.innerHTML = `Foto de Irina Iriser no Pexels.`
+        bgAlter.style.backgroundColor = "#F3D68A";
+        btAlter.style.backgroundColor = "#A0522D";
     }
 
     if (season === 3) {
@@ -135,5 +143,22 @@ function seasonDesign(season) {
         nextButton.style.color = "#FFFFFF";
         image.src = "images/winter.png";
         imgDesc.innerHTML = `Foto de Radu Andrei Razvan no Pexels.`
+        bgAlter.style.backgroundColor = "#B0C4DE";
+        btAlter.style.backgroundColor = "#000080";
+    }
+}
+
+function alterSeason() {
+    var selSeason = document.getElementById('select-season');
+    var seasonStr = selSeason.value;
+    if (seasonStr == season) {
+        alert('Estação já ativa! Escolha outra.');
+    } else {
+        season = parseInt(seasonStr);
+        if (season > 3) {
+            alert('Selecione uma estação!');
+        } else {
+            seasonDesign(season);
+        }
     }
 }

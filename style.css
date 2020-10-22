@@ -33,14 +33,44 @@ img {
     margin: 0 90px;
 }
 
-input[type="button"] {
+.img-butt input[type="button"] {
     height: 70px;
     width: 200px;
     font-size: 24px;
-    border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 5px #333333;
     margin: 30px 0;
+}
+
+.border-rad {
+    border-radius: 10px;
+}
+
+/*Alter Season*/
+.alter-season {
+    background-color: #F3D68A;
+    font-size: 25px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+#select-season {
+    margin-left: 5px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.alter-season input[type="button"] {
+    background-color: #8B4513;
+    color: white;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px #333333;
+    margin: 0px 10px;
 }
 
 /*Responsivity*/
@@ -65,6 +95,33 @@ input[type="button"] {
     }
 }
 
+@media (max-width: 700px) {
+    #back {
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    
+    #next {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+
+    #select-season {
+        margin-left: 5px;
+        margin-top: 20px;
+        height: 40px;
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .alter-season input[type="button"] {
+        margin: 20px 5px;
+        height: 50px;
+        width: 100px;
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 650px) {
     img#season-image {
         width: 70vw;
@@ -72,18 +129,6 @@ input[type="button"] {
 
     h1 {
         font-size: 12vw;
-    }
-}
-
-@media (max-width: 700px) {
-    #back {
-        margin-right: 0;
-        margin-bottom: 6px;
-    }
-
-    #next {
-        margin-left: 0;
-        margin-top: 6px;
     }
 }
 
