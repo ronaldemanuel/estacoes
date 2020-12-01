@@ -2,7 +2,7 @@
  *Site desenvolvido utilizando HTML5, CSS3 e JS, como forma de estudo da linguagem JavaScript pura e suas iterações como  HTML e o CSS.*
 
 ## O que e?
-Uma aplicação simples que varia seu design de acordo com a estação do ano, que o usuário pode **avançar** ou **retroceder** manualmente.
+Uma aplicação simples que varia seu design de acordo com a estação do ano. O usuário pode **avançar** ou **retroceder** manualmente.
 
 ***
 
